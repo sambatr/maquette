@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Inclure Font Awesome pour les icônes (ajoutez ceci dans le <head> de votre document) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>    
+    <header class="bg-gray-600 text-white py-2">
+        <div class="container mx-auto flex justify-between items-center  ">
+            <h1 class="text-2xl font-semibold"></h1>
+            <div class="flex items-center space-x-4 xl:space-x-1">
+                <a href="#" class="text-lg">
+                    <i class="fab fa-facebook text-white hover:text-red-500"></i>
+                </a>
+                <a href="#" class="text-lg">
+                    <i class="fab fa-twitter text-white hover:text-red-500"></i>
+                </a>
+                 <a href="#" class="text-lg">
+                    <i class="fab fa-instagram text-white hover:text-red-500"></i>
+                </a>
+                <a href="#" class="text-lg">
+                    <i class="fab fa-pinterest text-blue-300 hover:text-red-500"></i>
+                </a>
+                <a href="#" class="text-lg">
+                    <i class="fab fa-linkedin text-white hover:text-red-500"></i>
+                </a>
+                <a href="#" class="text-lg">
+                    <i class="fab fa-google text-white hover:text-red-500"></i>
+                </a>
+                <!-- Barre de recherche -->
+                <div class="relative left-6 ">
+                    <input type="text" placeholder="Recherche" class="bg-gray-200 text-gray-700 px-2 py-1 focus:outline-none hover:bg-blue-300 focus:ring focus:ring-blue-400 focus:ring-opacity-50">
+                    <button class="absolute right-4 top-1/2 transform -translate-y-1/2 text-white px-2 ">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+        </div>    
+    </header>
+    <div class="bg-white py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <!-- Logo et menu centrés -->
+            
+              <div class="xl:10">
+                  <img src="GLOBAL.png" alt="Logo de l'entreprise" class="h-20 w-50">
+              </div>
+            <div class="flex items-center">
+                <ul class="flex space-x-4 hidden lg:flex space-x-4">
+                    <li><a href="#" class="bg-blue-300 hover:bg-red-300 hover:text-blue-500 text-white px-2 py-11 rounded-md ">HOME</a></li>
+                    <li><a href="#" class="text-black-600 hover:text-red-500">PAGES</a></li>
+                    <li><a href="#" class="text-black-600 hover:text-red-500">ABOUT US</a></li>
+                    <li><a href="#" class="text-black-600 hover:text-red-500">SERVICES</a></li>
+                    <li><a href="#" class="text-black-600 hover:text-red-500">CASES</a></li>
+                    <li><a href="#" class="text-black-600 hover:text-red-500">NEWS</a></li>
+                    <li><a href="#" class="text-black-600 hover:text-red-500">CONTACTS</a></li>
+                </ul>
+            </div>
+            <i id="mobile-menu" class="fas fa-menu sm:hidden"></i>
+            <div class="flex items-center">
+                <ul id="mobile-menu" class="lg:hidden bg-blue-500 text-white p-4">
+                    <li><a href="#" class="block mb-2 bg-blue-300 hover:bg-red-300 hover:text-blue-500 text-white px-2 py-11 rounded-md ">HOME</a></li>
+                    <li><a href="#" class="block mb-2 text-black-600 hover:text-red-500">PAGES</a></li>
+                    <li><a href="#" class="block mb-2 text-black-600 hover:text-red-500">ABOUT US</a></li>
+                    <li><a href="#" class="block mb-2 text-black-600 hover:text-red-500">SERVICES</a></li>
+                    <li><a href="#" class="block mb-2 text-black-600 hover:text-red-500">CASES</a></li>
+                    <li><a href="#" class="block mb-2 text-black-600 hover:text-red-500">NEWS</a></li>
+                    <li><a href="#" class="block mb-2 text-black-600 hover:text-red-500">CONTACTS</a></li>
+                </ul>
+            </div>
+            
+            <!-- Adresse électronique et icône de téléphone à droite -->
+            <div>
+                <div class="hidden lg:flex flex items-center">
+                    <a href="800-2345-4789" class="text-blue-300 hover:text-blue-800">
+                    <i class="fas fa-phone"><span class="text-black text-sm">800-2345-4789</span></i>
+                    </a>
+                </div class="">
+                <a href="mailto:globaly@demolink.org" class="hidden lg:flex text-blue-300 hover:text-blue-800">globaly@demolink.org</a>
+            </div>
+        </div>
+    </div>
+    
+    <section style="background-image: url(./image/sary\ 7.png)" class="bg-cover bg-center w-full h-screen flex items-center justify-center xl:w-full" >
+        <div class="flex flex-col items-center justify-center h-screen w-3/4">    
+            <h1 class="text-6xl text-white font-sans font-serif">Full Cycle Business Management</h1>
+            <p class="text-center text-white">Whether your company looks for a financial consulting,investment risks assessments or an interim,HR managment,we're ready to provide that for you.We have a proven expertise in any process,that a modern day business lives and works through</p>
+            <br><button class="bg-blue-500 text-white py-2 px-4 hover:text-blue-500 hover:bg-red-300 rounded-full">READ MORE</button>
+        </div>
+    </section>
+    <section class="">
+        <div>
+            <br><h1 class="font-serif text-2xl text-center">business management</h1>
+            <h1 class="font-sans font-serif text-5xl text-center">Services We Offer</h1>
+        </div>
+        <br><div class="grid grid-cols-1 sm:grid-cols-4 gap-4">
+           <div class="p-4 bg-white text-center">
+                <i class="fas fa-check fa-3x text-white w-12 h-15 rounded-full bg-blue-300"></i>
+                <br><h1 class="text-2xl">Interim managers</h1>
+                <br><hr><br><p>Any scrutiny like a management issue will succumb to our control if you will choose our interim...</p>
+           </div>
+            <div class="p-4 bg-white text-center">
+                <i class="fas fa-eraser fa-3x text-white w-12 h-15 rounded-full bg-blue-300"></i>
+                <br><h1 class="text-2xl">Exit planning</h1>
+                <br><hr><br><p>Exit planning with us is a worked out,strategic roadmap 5-10 years before you will hit the road...</p>
+            </div>
+            <div class="p-4 bg-white text-center">
+                <i class="fas fa-external-link fa-3x text-white w-12 h-15 rounded-full bg-blue-300"></i>
+                <br><h1 class="text-2xl">Market research</h1>
+                <br><hr><br><p>It's impossible to succed in business these days,regardless of the niche,without a proper marketing team...</p>
+            </div>
+            <div class="p-4 bg-white text-center">
+                <i class="fas fa-rotate-right fa-3x text-white w-12 h-15 rounded-full bg-blue-300"></i>
+                <br><h1 class="text-2xl">Strategic planning</h1>
+                <br><hr><br><p>Building a strategic development and expansion plan is vital,as the tactics game will simply leave your...</p>
+            </div>
+        </div>
+         <br><div class="m-center flex justify-center py-4">
+            <button class="bg-blue-500 text-white py-2 px-4 hover:text-blue-500 hover:bg-red-300 rounded-full">VIEW MORE</button>
+        </div>
+    </section>
+    <br><section class=" grid grid-cols-1 sm:grid-cols-2 flex justify-center space-x-0">
+        <div class="w-3/2 h-auto ">
+             <img src="./image/Annotation 2023-11-07 185511.png" alt="" class="px-4 w-full h-auto">
+        </div>
+        <div style="background-image: url(./image/sary5.png)" class="w-full h-auto py-9 px-4">
+            <h1 class="font-sans font-serif text-4xl text-white">Case Studies & Success</h1>
+            <br><h3 class="font-serif text-white">Any company level of expertise,trustworthiness or popularity can be easily checked when it comes to proven cases...</h3>
+            <p class="text-white">We stockpiled hundreds of successful business consulting operations throughout the 25 years long history we're in this business.Here are the best examples of our diligent and efficient advice for small and big companies</p>
+            <br><button class="text-white border-white hover:border-white focus:outline-none bg-transparent rounded-full">OUR CASES</button>
+        </div>
+    </section>
+    <section >
+        <div >
+            <br><h1 class="font-serif text-2xl text-center">Browse our</h1>
+            <h1 class="font-sans font-serif text-5xl text-center">Business Tips</h1>
+        </div>
+        <br><div class="grid grid-cols-1 sm:grid-cols-3 gap-3 bg-white space-x-5 ml-12 px-20 place-content-center">
+             <div class="items-center">
+                <div class="w-full h-auto pr-4">
+                   <img src="./image/sary2.png" alt="">
+                </div>
+                <br><div class="w-3/4">
+                   <p class="text-blue-300 font-mono">26.07.2016 <span class="text-black font-bold">by admin</span></p>
+                   <h1 class="">How long before the exit you must be planning it?</h1>
+                   <p class="">The ideal timing for planning an exit strategy is at least 5-10 years beforehand.But unfortinately,that kind of diligent approach is not always applicable. So how does a CEO or owher can perform a quicker exit?</p>
+                </div>
+             </div>
+             <div class="items-center w-3/4">
+                <div class="w-full h-auto pr-4">
+                   <img src="./image/sary3.png" alt="">
+                </div>
+                <br><div class="w-3/4">
+                   <p class="text-blue-300 font-mono">26.07.2016 <span class="text-black font-bold">by admin</span> </p>
+                   <h1 class="">It it viable now for IT companies to file an IPO?</h1>
+                   <p class="">It's no doctrom-bubble burst today as it was at the verge of the centuries.But still,with so many different trends receiving investment funding,is it wise for a company to file an IPO at this time in the stock's history</p>
+                </div>
+             </div>
+             <div class="items-center">
+                <div class="w-full h-auto pr-4">
+                    <img src="./image/sary4.png" alt="">
+                </div>
+                <br><div class="w-3/4">
+                    <p class="text-blue-300 font-mono">26.07.2016 <span class="text-black font-bold">by admin</span> </p>
+                   <h1 class="">Bringing a new CFO at the time of crisis?</h1>
+                   <p class="">There are many different approaches for saving a company during a period of a financial meltdown. Hiring a new Chiiel Financial Officer may seem like an obvious managerial solution from that list. But actually, is it the best decision?</p>
+                </div>   
+             </div>      
+        </div> 
+        <br><div class="flex justify-center py-4">
+            <button class="text-white py-2 px-4 bg-blue-500 hover:text-blue-500 hover:bg-red-300 rounded-full">VIEW ALL</button> 
+        </div>
+    </section>
+    <br><section style="background-image: url(./image/sary8.png)" class="py-11">
+        <br><div class="flex justify-center">
+            <h1 class="text-white text-2xl">Thanks to your business tips</h1>
+        </div>
+        <div class="flex justify-center">
+            <h1 class="text-white text-5xl font-sans font-serif">You'll improve your performance</h1>
+        <br></div>
+        <br><div class="flex justify-center space-x-10">
+            <div class="py-9">
+                <div class="ml-12 w-20 h-20 flex items-center justify-center bg-transparent border border-blue text-white rounded-full">
+                   <span class="text-xl font-bold">56</span>
+                </div>
+                <h1 class="text-1xl text-white">companies consulted</h1>
+            </div>
+            <div class="py-9">
+                <div class="ml-1 w-20 h-20 flex items-center justify-center bg-transparent border border-blue text-white rounded-full">
+                   <span class="text-xl font-bold">56</span>
+                </div>
+                <h1 class="text-1xl text-white">Consultants</h1>
+            </div>
+            <div class="py-9">
+                <div class="ml-1 w-20 h-20 flex items-center justify-center bg-transparent border border-blue text-white rounded-full">
+                   <span class="text-xl font-bold">56</span>
+                </div>
+                <h1 class="text-1xl text-white">Awards won</h1>
+            </div>
+            <div class="py-9">
+                <div class="ml-7 w-20 h-20 flex items-center justify-center bg-transparent border border-blue text-white rounded-full">
+                   <span class="text-xl font-bold">56</span>
+                </div>
+                <h1 class="text-1xl text-white">Satisfed customers</h1>
+            </div>
+            </div>
+        </div><br>
+    </section>
+    <br><section>
+        <div class="flex justify-center">
+            <h1 class="text-black font-sans font-serif text-2xl">read our</h1>
+        </div>
+        <div class="flex justify-center">
+           <h1 class="text-black font-sans font-serif text-5xl">Client Testimonials</h1>
+        </div>
+        <br><div class="grid grid-cols-1 sm:grid-cols-4 gap-4 py-9">
+            <div class="px-10">
+                <img src="./image/Sary 10.png" alt="Image ronde" class="w-40 h-40 rounded-full">
+            </div>
+            <div class="mr-10">
+             <p class="">The investment company I own once signed up for Globaly consultations. That happened back in 1993.Since then, we've been showing a steady year-by_year growth for 23 years long, in big part thanks to timely and spot-on advice by Globaly professionals</p>
+             <br><h1 class="font-sans font-serif">Richard Lesberry</h1>
+            </div>
+            <div class="px-10">
+                <img src="./image/Sary 9.png" alt="Image ronde" class="w-40 h-40 rounded-full">
+            </div>
+            <div class="mr-10">
+            <p class="">As an FMCG company,we always faced a tough competition in our field of market. It gotten only worse since the Great Recession hit us in 2008. But with efficient advice by this renown company, we were able to Winter black from the red digits zone to a green one!</p>
+            <br><h1 class="font-sans font-serif">Vanessa Hayes</h1>
+            </div>
+        </div>
+    </section>
+    <section style="background-image: url(./image/sary8.png);">
+        <div class="py-11">
+            <div class="flex justify-center">
+               <h1 class="text-2xl text-white items-center">As we're managing the aspects of your business,</h1>
+            </div>
+            <div class="flex justify-center">
+               <h1 class="text-5xl text-white items-center">Your revenue continues to grow.</h1>
+            </div>
+            <br><div class="flex justify-center py-4">
+               <button class="text-white py-2 px-4 bg-transparent border hover:text-blue-500 hover:bg-red-300 border-white rounded-full">LEARN MORE</button>
+            </div>
+        </div>
+    </section>
+    <footer class="">
+    <div class="bg-gray-100 py-11">
+        <br><div class="flex justify-center">
+           <h1 class="text-2xl">request a free</h1>
+        </div>
+        <div class="flex justify-center">
+            <h1 class="text-5xl text-blue-300">Consultation</h1>
+        </div>
+        <br><div class="flex justify-center">
+            <p class="text-2xl">I would like to discuss</p>
+        </div>
+       <br><div class="flex justify-center">
+               <input type="text" placeholder="your name" class="bg-gray-200 text-gray-700 px-10 py-1 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50">
+           </div>
+        <br><div class="flex justify-center">
+           <input type="text" placeholder="your e-mail" class="bg-gray-200 text-gray-700 px-10 py-1 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50">
+        </div>
+        <br><div class="flex justify-center">
+           <br><button class="text-white py-2 px-4 bg-blue-500 hover:text-blue-500 hover:bg-red-300 rounded-full">SUBMIT</button>
+        </div>
+    </div>
+    <div class="bg-white">
+        <div class="flex justify-center">
+           <img src="GLOBAL.png" alt="Logo de l'entreprise" class="h-20 w-50">
+        </div>
+        <div class="flex justify-center">
+          <h1 class="">(c)2023Globaly. Allrights reserved. Privacy Policy</h1>
+        </div>
+    </div>
+    </footer>
+</body>
+</html> 
